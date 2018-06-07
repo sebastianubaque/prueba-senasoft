@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* barra */
+.video-responsive{
+    position: relative;
+}
+.video-responsive video{
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+.video-responsive  div img{
+    width: 40px;
+    height: 42px;
+    float: left;
+}
+.video-responsive div{
+    position: relative;
+    background: transparent;
+    width: 195px;
+    height: 46px;
+    bottom: 743px;
+    left: 5pc;
+}
+.video-responsive div h1{
+    color: white;
+    font-family: Titillium Web;
+    position: relative;
+    left: 10px;
+    top: 9px;
+    font-size: 16px;
+    font-weight: 100;
+} 
+ /* Navegacion */
+ header section{
+    background-color: #ff000000;
+    width: 455px;
+    position: relative;
+    bottom: 788px;
+    left: 880px;
+}
+
+ header section ul{
+    text-align: center;
+    padding: 10px;
+}
+header section ul li{
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    margin: 8.5px;
+    font-size: 18px;
+    color: white;
+}
+header section ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 550;
+}
+header section ul li:hover a{
+    color: rgb(0, 140, 255);
+    transition-duration: 1s;
+}
+.active a{
+    color: rgb(0, 140, 255);
+}
+/* parrafos */
+header #primero{
+    position: relative;
+    bottom: 612px;
+    width: 134px;
+    color: white;
+    font-size: 51px;
+    font-weight: 500;
+    left: 442px;
+    font-family: Titillium Web;
+}
+header #segundo{
+    position: relative;
+    bottom: 689px;
+    color: white;
+    width: 255px;
+    font-size: 51px;
+    left: 594px;
+    font-family: Titillium Web;
+}
+header #tercero{
+    position: relative;
+    bottom: 663px;
+    width: 174px;
+    font-size: 25px;
+    left: 554px;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+}
+header #cuarto{
+    position: relative;
+    bottom: 663px;
+    width: 116px;
+    font-size: 20px;
+    left: 570px;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: 500;
+ /* Articulos, posters */
+}
+article{
+    position: relative;
+    bottom: 286px;
+}
+article img{
+    width: 600px;
+    margin: 0px 0px 7px 250px;
+    float: left;
+}
+article div{
+    position: absolute;
+    margin: 0px;
+    font-family: Titillium Web;
+    left: 55pc;
+    padding: 6px;
+    top: -9px;
+    border-bottom: solid #00cafffa;
+}
+article div #primero{
+    display: inline-block;
+    font-size: 24px;
+    position: relative
+}
+article div #segundo{
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    font-weight: bold;
+}
+article .nombres{
+    position: absolute;
+    top: 56px;
+    left: 55pc;
+    width: 192px;
+}
+article .nombres li{
+    padding: 7px;
+    list-style-type: none;
+}
+article .nombres li a{
+    text-decoration: none;
+    font-family: Titillium Web;
+    color: black;
+    font-weight: 500;
+}
+article .nombres li:hover a{
+    color: rgb(0, 140, 255);
+    transition-duration: 1s;
+    
+}
+article .numeros{
+    position: absolute;
+    top: 56px;
+    left: 68pc;
+    width: 39px;
+}
+article .numeros li{
+    padding: 7px;
+    list-style-type: none;
+}
+article .numeros li a{
+    text-decoration: none;
+    font-family: Titillium Web;
+    color: black;
+    font-weight: 500;
+}
+article .numeros li:hover a,article .nombres li:hover a{
+    color: rgb(0, 140, 255);
+    transition-duration: 1s;
+}
+ .barra{
+    background: #c1c1c140;
+    height: 30px;
+    position: absolute;
+    width: 599px;
+    top: 71pc;
+    left: 15.6pc;
+}
+ .barra div{
+    width: 117px;
+    position: relative;
+    height: 30px;
+    float: left;
+}
+ .barra div img{
+    width: 19px;
+    padding: 5px;
+    margin-left: 0px;
+    position: relative;
+    float: left;
+}
+ .barra div p{
+    position: relative;
+    font-family: Titillium Web;
+    float: left;
+    color: #929090;
+    padding: 1px;
+}
+.barra div:hover{
+    color: rgb(0, 140, 255);
+}
+.barra .diferente{
+    margin-left: 149px;
+    width: 99px;    
+}
+.barra .diferente:hover{
+    color: rgb(0, 140, 255);
+}
